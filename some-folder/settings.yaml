@@ -1,3 +1,6 @@
-timeout:
-    type: int
-    required: true
+timeout: 
+  __required: true
+  __type: object
+  type: 
+    __required: true
+    __type: string
