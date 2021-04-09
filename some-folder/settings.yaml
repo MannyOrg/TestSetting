@@ -5,7 +5,7 @@ timeout:
     __type: int
   enabled: 
     __required: false
-    __type: bool
+    __type: boolean
   logging:
     connstring:
       __type: string
