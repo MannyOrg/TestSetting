@@ -1,6 +1,11 @@
-timeout: 
-  __required: true
-  __type: object
+timeout:
   type: 
-    __required: true
     __type: string
+  amount: 
+    __type: int
+  enabled: 
+    __required: false
+    __type: bool
+  logging:
+    connstring:
+      __type: string
