@@ -9,3 +9,9 @@ timeout:
   logging:
     connstring:
       __type: string
+
+database:
+  connstring:
+    __type: string
+  tables:
+    __type: array
